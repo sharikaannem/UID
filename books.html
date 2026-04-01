@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .products{
+            display:grid;
+            grid-template-columns:auto auto auto;
+            grid-template-rows:1fr,1fr;
+            grid-template-areas:repeat(3,1fr);
+            gap:20px;
+            padding:20px;
+        }
+        .books{
+            border:3px solid darkmagenta;
+        }
+    </style>
+    <body>
+        <div class="products">
+            <div class="books">
+                <img src="novel.jpg" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;font-style:italic;">Solar Bones</h3>
+                <p>price:$9.21</p>
+                <button>Add to wishlist</button>
+            </div>
+            <div class="books">
+                <img src="swami vivekanada book.webp" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;font-style:italic;">Fear not be strong</h3>
+                <p>price:$5.12</p>
+                <button>Add to Wishlist</button>
+            </div>
+            <div class="books">
+                <img src="power of mind.webp" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;font-style:italic;">The Power of subconsious Mind</h3>
+                <p>price:$7.35</p>
+                <button>Add to wishlist</button>
+            </div>
+            <div class="books">
+                <img src="never lost.webp" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;font-style:italic;">Never lost</h3>
+                <p>price:$6.23</p>
+                <button>Add to Wishlist</button>
+            </div>
+            <div class="books">
+                <img src="art of being alone.webp" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;font-style:italic;">The art of being alone</h3>
+                <p>price:$5.89</p>
+                <button>Add to wishlist</button>
+            </div>
+            <div class="books">
+                <img src="believe in yourself.webp" width="100" height="100">
+                <h3 style="font-family:Georgia, 'Times New Roman', Times, serif;font-style:italic;">Believe in yourself</h3>
+                <p>price:$4.78</p>
+                <button>Add to Wishlist</button>
+            </div>
+        </div>
+    </body>
+</html>
